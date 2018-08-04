@@ -1,0 +1,21 @@
+<div *ngIf="user" style="margin-top: 45px; margin-left: 300px;">
+  <h2>Details for {{ user.login}}</h2>
+  <div><span>id: </span>{{user.id}}</div>
+  <div>
+    <p>
+      <label>name:
+        <!-- <input [(ngModel)]="user.login" placeholder="login"> -->
+      </label> {{user.login}}
+    </p>
+    <p>
+      <label>url:
+        <!-- <input [(ngModel)]="user.url" placeholder="url"> -->
+      </label>{{user.url}}
+    </p>
+    <p>
+        <label>Created at:
+          <!-- <input [(ngModel)]="user.created_at" placeholder="created at"> -->
+        </label>{{user.created_at | date: "dd/MM/yyyy HH:mm"}}
+      </p>
+  </div>
+</div>
