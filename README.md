@@ -1,5 +1,9 @@
 # FirstApp
 
+This app was created to learn Angular6, using github rest API as backend.
+
+It should list users from a repository and show user details. At the details page, it shows all repositories the user has access.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
 
 ## Development server
